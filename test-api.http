@@ -1,0 +1,25 @@
+### Create a note
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{
+  "title": "My first note",
+  "content": "This is the content"
+}
+
+### Get all notes
+GET http://localhost:5000/api/notes
+
+### Update note
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{
+  "title": "My first note",
+  "content": "This is the content"
+}
+
+
+### Delete note
+DELETE http://localhost:5000/api/notes/6764c6af6f7b293491cb9dd8
+
